@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+workflowwiz/__init__.py
+workflowwiz/cli.py
+workflowwiz.egg-info/PKG-INFO
+workflowwiz.egg-info/SOURCES.txt
+workflowwiz.egg-info/dependency_links.txt
+workflowwiz.egg-info/entry_points.txt
+workflowwiz.egg-info/not-zip-safe
+workflowwiz.egg-info/requires.txt
+workflowwiz.egg-info/top_level.txt

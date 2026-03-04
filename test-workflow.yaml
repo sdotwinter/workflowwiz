@@ -1,0 +1,19 @@
+name: test-workflow
+description: Test workflow
+version: 1.0.0
+variables:
+  ENV: production
+  REGION: us-west-2
+steps:
+- id: step_1
+  name: Check prerequisites
+  command: echo "Checking prerequisites..."
+  enabled: true
+- id: step_2
+  name: Deploy application
+  command: echo "Deploying application..."
+  enabled: true
+- id: step_3
+  name: Run health check
+  command: echo "Running health check..."
+  enabled: true

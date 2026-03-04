@@ -1,0 +1,31 @@
+name: Example DevOps Workflow
+description: A sample workflow demonstrating WorkflowWiz features
+version: "1.0.0"
+variables:
+  APP_NAME: myapp
+  ENV: staging
+
+steps:
+  - id: check_env
+    name: Check environment
+    command: "echo Environment: staging"
+
+  - id: check_tools
+    name: Verify required tools
+    command: "echo Checking Docker and kubectl"
+
+  - id: lint
+    name: Lint application code
+    command: "echo Running linters"
+
+  - id: test
+    name: Run unit tests
+    command: "echo Running tests"
+
+  - id: build
+    name: Build Docker image
+    command: "echo Building Docker image"
+
+  - id: deploy
+    name: Deploy to staging
+    command: "echo Deploying to staging"
